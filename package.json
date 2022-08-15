@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node ./src/server.js",
-    "build": "webpack",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm run build",
     "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
