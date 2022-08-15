@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "engines": {
-    "node": "v16.13.1"
+    "node": "v16.13.1",
+    "npm": "8.1.2"
   },
   "scripts": {
     "start": "node ./src/server.js",
