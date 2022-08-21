@@ -6,6 +6,5 @@ export const getClan = async (req, res) => {
     if (!link) return res.status(501).json({ status: 'Error', msg: 'Brak odnośnika do klanu.' })
 
     const clanCharacters = await scrapClan(link)
-    //dd
     return res.status(201).json({ clanCharacters })
 }
